@@ -12,6 +12,7 @@
 
 2. **Criar um Novo UserScript**
 
+   - Recomendo o navegador Firefox
    - Abra o painel do Tampermonkey e crie um novo UserScript.
    - Cole o seguinte código:
 
