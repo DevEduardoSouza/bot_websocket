@@ -3,18 +3,26 @@
     "dotenv": "^16.4.4",
     "node-telegram-bot-api": "^0.64.0",
     "puppeteer": "^22.1.0",
-    "user-agents": "^1.1.118"
+    "user-agents": "^1.1.118",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   },
   "name": "bot_websocket",
-  "version": "1.0.0",
-  "main": "main.js",
+  "version": "1.0.1",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch ./src/main.js"
+    "dev": "node --watch ./src/main.js",
+    "start": "node ./src/main.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "bot",
+    "websocket",
+    "URI",
+    "WebScraping"
+  ],
+  "author": "Eduardo Souza",
   "license": "ISC",
   "description": ""
 }
